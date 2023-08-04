@@ -1,0 +1,28 @@
+<!-- npm install --save-dev @electron-forge/cli
+npx electron-forge import -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title"> Your Memory Checker </h1>
+
+    <p> Max Memory: </p> 
+    <p id="max-memory-num"> *unchecked* </p>
+
+    <p> Currently Used Memory: </p>
+    <p id="cur-used-memory-num"> *unchecked* </p>
+
+    <button id="check-again"> Check Again </button>
+
+    <script src="./render.js"></script>
+    <script src="./logic.js"></script>
+</body>
+</html>
